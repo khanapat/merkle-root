@@ -4,6 +4,7 @@ pragma solidity 0.8.19;
 
 import {MerkleProof} from "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 
+// https://cs.stackexchange.com/questions/128774/merkle-tree-sorting-leaves-and-pairs
 contract MerkleProofWithZeppelin {
     using MerkleProof for bytes32[];
 
